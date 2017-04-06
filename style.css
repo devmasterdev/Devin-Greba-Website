@@ -1,0 +1,160 @@
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 16px;
+    background-color: rgba(0, 242, 255, 1);
+    background: -webkit-linear-gradient(top, rgba(255, 0, 242, 1) 0%, rgba(0, 242, 255, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 0, 242, 1) 0%, rgba(0, 242, 255, 1) 100%);
+    border-bottom-width: 0px;
+    border:2px solid black;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 242, 255, 1);
+    background: -webkit-linear-gradient(top, rgba(255, 0, 242, 1) 0%, rgba(0, 242, 255, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 0, 242, 1) 0%, rgba(0, 242, 255, 1) 100%);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 0, 242, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #000000;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #000000;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000000;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #00f2ff;
+}
+
+a{
+	font-family: 'Electrolize', sans-serif;
+	font-size: 22px;
+	color:black;
+}
+
+h3{
+	font-family: 'Press Start 2P', cursive;
+	font-size: 18px;
+	color:black;
+}
+
+p{
+	font-family: 'Electrolize', sans-serif;
+	font-size: 14px;
+	color:black;
+}
+
+.my-logo{
+	font-family: 'Press Start 2P', cursive;
+}
+
+body{
+	background-image: url(images/road.gif); 
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+	.container{
+	border:2px solid black;
+	overflow:auto;
+}
+
+	.center-it{
+	left:15%;
+	width:70%;
+	height:60%;
+	top:20%;
+	background-color: rgba(0, 242, 255, 1);
+    background: -webkit-linear-gradient(top, rgba(255, 0, 242, 1) 0%, rgba(0, 242, 255, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 0, 242, 1) 0%, rgba(0, 242, 255, 1) 100%);
+	position:absolute;
+	border-radius: 1em;
+	}
+
+
+
+input{
+	background-color: rgba(0, 242, 255, 1);
+}
+
+textarea{
+	background-color: rgba(0, 242, 255, 1);
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow:hidden;
+}
+
+.btn{
+	border-radius: 50%;
+	background-color: rgba(0, 242, 255, 1);
+    background: -webkit-linear-gradient(top, rgba(255, 0, 242, 1) 0%, rgba(0, 242, 255, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 0, 242, 1) 0%, rgba(0, 242, 255, 1) 100%);
+    border:2px solid black;
+	overflow:auto;
+	color: navy;
+	margin-bottom: 2em;
+}
+
+.makeitpurple{
+	background-color: rgba(255, 0, 242, 1);
+	color: black;
+}
+
+.pinky{
+	color:rgba(255, 0, 242, 1);
+}
+
+.picsizer{
+	max-width: 10em;
+	max-height: 10em;
+	border-radius: 0.5em;
+	border: black 1px;
+	position: absolute;
+}
+
+.divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
+}
+
+.antispam { display:none;}
+
+@media screen and (min-width: 800px) {
+	p{
+		font-size:15px;
+	}
+
+	h3{
+		font-size: 20px;
+	}
+
+	.center-it{
+		height:60%;
+		top: 20%;
+	}
+
+}
